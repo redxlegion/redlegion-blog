@@ -16,7 +16,7 @@ title: Ruby Tweet Scraper v.02
 I've made improvements to the tweet dumper. Added geo information. Also
 added progress bar, so check gem requirements.
 
-{{< highlight ruby >}}
+```ruby
 #!/bin/env ruby
 # encoding: utf-8
 
@@ -62,7 +62,7 @@ CSV.open("#{scrname}.csv", "w") do |csv|
 		csv << [tweet.id, tweet.created_at, tweet.user.screen_name, tweet.text, tweet.source, tweet.geo]
 	end
 end
-{{< / highlight >}}
+```
 
 I don't comment. Sorry. I guess I can go back through and comment where
 it's helpful and repost another time. It works with Ruby 1.9.2 anyways.

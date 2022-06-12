@@ -12,7 +12,7 @@ title: Tweet Scraper in Python
 
 Code first, talk later.
 
-{{< highlight python >}}
+```python 
 
 #!/usr/bin/env python
 # encoding: utf-8
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 	#pass in the username of the account you want to download
 	get_all_tweets(sys.argv[1])
 
-{{< / highlight >}}
+```
 
 The entirety of this script doesn't belong to me at all. My only
 contribution is fixing utf-8 issues. Requires tweepy and unicodecsv.

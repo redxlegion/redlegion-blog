@@ -13,7 +13,7 @@ title: Ruby Twitter Scraper
 
 Requires the twitter gem. Install it as per usual. Code as follows:
 
-{{< highlight ruby >}}
+```ruby
 #!/bin/env ruby
 # encoding: utf-8
 
@@ -48,7 +48,7 @@ CSV.open("#{ARGV[0]}.csv", "w") do |csv|
 		csv << [tweet.id, tweet.created_at, tweet.user.screen_name, tweet.text, tweet.source, tweet.geo]
 	end
 end
-{{< / highlight >}}
+```
 
 Excellent. I'm going to revise it as necessary, but it's a most
 effective scraper. Though I'd love to add some sort of progress bar to
