@@ -20,7 +20,7 @@ curve, so I'll just throw that warning right away.
 
 Here goes.
 
-{{< highlight rust >}}
+```rust
 use std::io;
 
 fn chamf(d: f64, a: f64, b: f64) -> f64 {
@@ -54,7 +54,7 @@ fn main() {
     println!("\nMin Result:\n{} mm\n{} in", chamf(x, y, z), chamf(x, y, z)/25.4); 
     println!("\nMax Result:\n{} mm\n{} in", chamf(i, j, k), chamf(i, j, k)/25.4);
 }
-{{< / highlight >}}
+```
 
 So, yeah. No comments. If you can't read it, you shouldn't bother. It's
 supposed to be human-readable, dumbass.
