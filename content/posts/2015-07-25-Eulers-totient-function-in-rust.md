@@ -16,7 +16,7 @@ I just spend some time putting it together.
 
 This is the quick crap I dreamt up:
 
-{{< highlight rust >}}
+```rust
 use std::env;
 
 fn gcd(mut m: u64, mut n: u64) -> u64 {
@@ -53,7 +53,7 @@ fn main() {
     }
     
 }
-{{< / highlight >}}
+```
 
 The code should compile with no problems. Yes, I realize that u64 is
 overkill. No, my code will never require unsigned 2^64 integers. It may

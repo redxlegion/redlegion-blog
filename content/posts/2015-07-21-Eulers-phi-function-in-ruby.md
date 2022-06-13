@@ -21,7 +21,7 @@ similar in Rust, just for shits and giggles.
 
 By the way, the output makes for some damned interesting graphs.
 
-{{< highlight ruby >}}
+```ruby
 # encoding: UTF-8
 
 usage = <<ELSTRINGSTART
@@ -58,7 +58,7 @@ y = ARGV[1].to_i
 x.upto(y) do |t|
     puts "#{t}, #{totient_phi_new(t)}"
 end
-{{< / highlight >}}
+```
 
 I'm such a fucking brocoder. Eugh.
 
